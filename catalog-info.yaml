@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "circleci"
+  description: "Prueba de Circleci"
+  annotations:
+    github.com/project-slug: angeelsanchez/circleci
+    circleci.com/project-slug: github/angeelsanchez/circleci
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
