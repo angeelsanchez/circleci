@@ -4,8 +4,9 @@ metadata:
   name: "circleci"
   description: "Prueba de Circleci"
   annotations:
-    github.com/project-slug: angeelsanchez/circleci
-    circleci.com/project-slug: github/angeelsanchez/circleci
+    #github.com/project-slug: angeelsanchez/circleci
+    #circleci.com/project-slug: github/angeelsanchez/circleci
+    circleci.com/project-slug: bitbucket/backstage-repos/bs-circleci
 spec:
   type: service
   lifecycle: experimental
